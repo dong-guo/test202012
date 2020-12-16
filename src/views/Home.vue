@@ -2,7 +2,7 @@
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <div>{{msg}}</div> -->
-    <!-- <div>{{list.name}}</div>
+    <div>{{list.name}}</div>
     <headerSlot ref="child">
       <template v-slot:headerSlot="{age}">
         <h1>Here might be a page title--{{age}}</h1>
@@ -11,7 +11,7 @@
         <h1>冻结{{age}}</h1>
       </template>
     </headerSlot>
-    <button @click="chang">那妞</button> -->
+    <button @click="chang">那妞</button>
      <button @click="add">加</button> 
      <span>{{dongNum1}}</span>
   </div>
